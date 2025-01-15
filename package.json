@@ -1,0 +1,38 @@
+{
+  "name": "@vest-admin/monorepo",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@9.10.0",
+  "description": "A modern RBAC platform for enterprise, it's based on Vue3, Vite, Element Plus NestJS, Prisma and MySQL.",
+  "author": "Kieran Wang <kieranwme@gmail.com> (https://github.com/kieranwv/)",
+  "license": "MIT",
+  "engines": {
+    "pnpm": ">=9.0"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "simple-git-hooks",
+    "web:dev": "pnpm -C apps/web run dev",
+    "web:build": "pnpm -C apps/web run build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "release": "bumpp"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.12.1",
+    "@types/node": "^22.10.2",
+    "bumpp": "^9.9.2",
+    "eslint": "^9.17.0",
+    "lint-staged": "^15.3.0",
+    "npm-run-all2": "^7.0.2",
+    "rimraf": "^6.0.1",
+    "simple-git-hooks": "^2.11.1",
+    "typescript": "^5.7.2"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "pnpm lint:fix"
+  }
+}

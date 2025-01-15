@@ -1,0 +1,32 @@
+{
+  "app": {
+    "title": "Vite + Vue 3 启动模板",
+    "description": "Vite + Vue 3 单页面应用启动模板, 支持国际化、Axios、UnoCSS、文件路由和自动化的 API 导入。"
+  },
+  "page": {
+    "index": {
+      "title": "首页"
+    },
+    "about": {
+      "title": "关于",
+      "description": ""
+    },
+    "not-found": {
+      "title": "未找到页面",
+      "content": "抱歉，您访问的页面不存在。"
+    }
+  },
+  "button": {
+    "back": "返回",
+    "index-page": "首页",
+    "about-page": "关于页面",
+    "404-page": "404 页面",
+    "show-logo": "显示 Logo",
+    "hide-logo": "隐藏 Logo",
+    "toggle-logo-description": "基于 Pinia 的状态管理",
+    "axios-request": "使用 Axios 发起请求",
+    "dynamic-route": "动态路由",
+    "dynamic-route-description": "基于文件的动态路由"
+  },
+  "empty": "暂无内容"
+}

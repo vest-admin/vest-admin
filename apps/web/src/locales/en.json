@@ -1,0 +1,31 @@
+{
+  "app": {
+    "title": "Vite + Vue 3 Starter Template",
+    "description": "Vite + Vue 3 SPA Starter Template, supports I18n, UnoCSS, Axios, File Routing and API auto-import."
+  },
+  "page": {
+    "index": {
+      "title": "Index Page"
+    },
+    "about": {
+      "title": "About Page"
+    },
+    "not-found": {
+      "title": "Page Not Found",
+      "content": "Sorry, the page you visited does not exist."
+    }
+  },
+  "button": {
+    "back": "Back",
+    "index-page": "Index Page",
+    "about-page": "About Page",
+    "404-page": "404 Page",
+    "show-logo": "Show Logo",
+    "hide-logo": "Hide Logo",
+    "toggle-logo-description": "State management based on Pinia",
+    "axios-request": "Request with Axios",
+    "dynamic-route": "Dynamic Route",
+    "dynamic-route-description": "File-based dynamic routing"
+  },
+  "empty": "No content"
+}
