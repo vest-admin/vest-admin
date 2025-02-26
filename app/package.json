@@ -1,5 +1,5 @@
 {
-  "name": "@vest-admin/web",
+  "name": "@vest-admin/app",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@9.10.0",
